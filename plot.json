@@ -1,0 +1,1797 @@
+{
+ "geoms": {
+ "geom1_vline_overview": {
+ "geom": "vline",
+"classed": "geom1_vline_overview",
+"aes": {
+"xintercept": "rank",
+"key": "1",
+"showSelected1": "Commit"
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"colour": "#000000",
+"showSelected": "Commit",
+"help_showSelected": "Commit" 
+},
+"types": {
+"xintercept": "numeric",
+"key": "numeric",
+"showSelected1": "character",
+"PANEL": "factor",
+"group": "character"
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1",
+"PANEL" 
+],
+"subset_order": [
+ "showSelected1",
+"PANEL" 
+],
+"chunks": 1,
+"total": 1,
+"chunk_info": {
+ "geom1_vline_overview_chunk1.tsv": {
+ "bytes":    12659,
+"rows": 174 
+} 
+} 
+},
+"geom2_tallrect_overview": {
+ "geom": "tallrect",
+"classed": "geom2_tallrect_overview",
+"aes": {
+"xmin": "rank - 0.5",
+"xmax": "rank + 0.5",
+"key": "rank",
+"fill": "Status",
+"showSelected1": "Status"
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"colour": "#BEBEBE",
+"alpha":      0.5,
+"showSelected": "Status",
+"help_showSelected": "Status" 
+},
+"types": {
+"fill": "rgb",
+"xmin": "numeric",
+"xmax": "numeric",
+"key": "numeric",
+"showSelected1": "factor",
+"PANEL": "factor",
+"group": "character"
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1",
+"PANEL" 
+],
+"subset_order": [
+ "showSelected1",
+"PANEL" 
+],
+"chunks": 1,
+"total": 1,
+"chunk_info": {
+ "geom2_tallrect_overview_chunk1.tsv": {
+ "bytes":     1425,
+"rows": 58 
+} 
+} 
+},
+"geom3_line_overview": {
+ "geom": "line",
+"classed": "geom3_line_overview",
+"aes": {
+"x": "rank",
+"y": "value",
+"colour": "version",
+"group": "version",
+"showSelected1": "version"
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"showSelected": "version",
+"help_showSelected": "version" 
+},
+"types": {
+"colour": "rgb",
+"y": "numeric",
+"x": "numeric",
+"group": "character",
+"showSelected1": "character",
+"PANEL": "factor"
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1",
+"PANEL",
+"group" 
+],
+"subset_order": [
+ "showSelected1",
+"PANEL" 
+],
+"chunks": 1,
+"total": 1,
+"chunk_info": {
+ "geom3_line_overview_chunk1.tsv": {
+ "bytes":     6552,
+"rows": 174 
+} 
+} 
+},
+"geom4_point_overview": {
+ "geom": "point",
+"classed": "geom4_point_overview",
+"aes": {
+"x": "rank",
+"y": "value",
+"colour": "version",
+"group": "version",
+"showSelected1": "version"
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"fill": "transparent",
+"showSelected": "version",
+"help_showSelected": "version" 
+},
+"types": {
+"colour": "rgb",
+"y": "numeric",
+"x": "numeric",
+"group": "character",
+"showSelected1": "character",
+"PANEL": "factor"
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1",
+"PANEL" 
+],
+"subset_order": [
+ "showSelected1",
+"PANEL" 
+],
+"chunks": 1,
+"total": 1,
+"chunk_info": {
+ "geom4_point_overview_chunk1.tsv": {
+ "bytes":     6552,
+"rows": 174 
+} 
+} 
+},
+"geom5_labelaligned_overview": {
+ "geom": "label_aligned",
+"classed": "geom5_labelaligned_overview",
+"aes": {
+"x": "rank",
+"y": "value",
+"hjust": "hjust",
+"label": "version",
+"colour": "version",
+"showSelected1": "version"
+},
+"params": {
+ "label_r":     0.15,
+"alignment": "vertical",
+"min_distance":      0.1,
+"background_rect": true,
+"na.rm": false,
+"na.rm": false,
+"showSelected": "version",
+"help_showSelected": "version" 
+},
+"types": {
+"colour": "rgb",
+"y": "numeric",
+"x": "numeric",
+"hjust": "numeric",
+"label": "character",
+"showSelected1": "character",
+"PANEL": "factor",
+"group": "character"
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1",
+"PANEL" 
+],
+"subset_order": [
+ "showSelected1",
+"PANEL" 
+],
+"chunks": 1,
+"total": 1,
+"chunk_info": {
+ "geom5_labelaligned_overview_chunk1.tsv": {
+ "bytes":      807,
+"rows": 18 
+} 
+} 
+},
+"geom6_tallrect_overview": {
+ "geom": "tallrect",
+"classed": "geom6_tallrect_overview",
+"aes": {
+"xmin": "rank - 0.5",
+"xmax": "rank + 0.5",
+"clickSelects": "Commit"
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"alpha":        1,
+"colour": "#000000",
+"fill": "transparent",
+"clickSelects": "Commit",
+"alpha_off":        0,
+"colour_off": "transparent",
+"help_clickSelects": "Commit" 
+},
+"types": {
+"xmin": "numeric",
+"xmax": "numeric",
+"clickSelects": "character",
+"PANEL": "factor",
+"group": "character"
+},
+"chunk_order": [],
+"nest_order": [
+ "PANEL" 
+],
+"subset_order": [
+ "PANEL" 
+],
+"chunks": 1,
+"total": 1,
+"chunk_info": {
+ "geom6_tallrect_overview_chunk1.tsv": {
+ "bytes":     4483,
+"rows": 58 
+} 
+} 
+},
+"geom7_hline_details": {
+ "geom": "hline",
+"classed": "geom7_hline_details",
+"aes": {
+"yintercept": "seconds"
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"colour": "#BEBEBE" 
+},
+"types": {
+"yintercept": "numeric",
+"PANEL": "integer",
+"group": "character"
+},
+"chunk_order": [],
+"nest_order": [],
+"subset_order": [],
+"chunks": 1,
+"total": 1,
+"chunk_info": {
+ "geom7_hline_details_chunk1.tsv": {
+ "bytes":       14,
+"rows": 1 
+} 
+} 
+},
+"geom8_text_details": {
+ "geom": "text",
+"classed": "geom8_text_details",
+"aes": {
+"x": "0",
+"y": "seconds * 1.1",
+"label": "sprintf(\"time limit = %s seconds\", paste(seconds))"
+},
+"params": {
+ "parse": false,
+"check_overlap": false,
+"na.rm": false,
+"na.rm": false,
+"colour": "#7F7F7F",
+"anchor": "start" 
+},
+"types": {
+"x": "numeric",
+"y": "numeric",
+"label": "character",
+"PANEL": "integer",
+"group": "character"
+},
+"chunk_order": [],
+"nest_order": [],
+"subset_order": [],
+"chunks": 1,
+"total": 1,
+"chunk_info": {
+ "geom8_text_details_chunk1.tsv": {
+ "bytes":       73,
+"rows": 1 
+} 
+} 
+},
+"geom9_vline_details": {
+ "geom": "vline",
+"classed": "geom9_vline_details",
+"aes": {
+"xintercept": "N",
+"key": "1",
+"showSelected1": "Commit"
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"colour": "#BEBEBE",
+"showSelected": "Commit",
+"help_showSelected": "Commit" 
+},
+"types": {
+"xintercept": "numeric",
+"key": "numeric",
+"showSelected1": "character",
+"PANEL": "integer",
+"group": "character"
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1,
+"chunk_info": {
+ "geom9_vline_details_chunk1.tsv": {
+ "bytes":     2486,
+"rows": 29 
+} 
+} 
+},
+"geom10_text_details": {
+ "geom": "text",
+"classed": "geom10_text_details",
+"aes": {
+"x": "N",
+"y": "0",
+"label": "sprintf(\"largest common N=%s\", paste(N))",
+"key": "1",
+"showSelected1": "Commit"
+},
+"params": {
+ "parse": false,
+"check_overlap": false,
+"na.rm": false,
+"na.rm": false,
+"colour": "#7F7F7F",
+"showSelected": "Commit",
+"help_showSelected": "Commit",
+"anchor": "end" 
+},
+"types": {
+"x": "numeric",
+"y": "numeric",
+"label": "character",
+"key": "numeric",
+"showSelected1": "character",
+"PANEL": "integer",
+"group": "character"
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1,
+"chunk_info": {
+ "geom10_text_details_chunk1.tsv": {
+ "bytes":     3645,
+"rows": 29 
+} 
+} 
+},
+"geom11_text_details": {
+ "geom": "text",
+"classed": "geom11_text_details",
+"aes": {
+"x": "0",
+"y": "0",
+"label": "commit",
+"href": "paste0(\"https://github.com/Rdatatable/data.table/commit/\", commit)",
+"key": "1",
+"showSelected1": "Commit"
+},
+"params": {
+ "parse": false,
+"check_overlap": false,
+"na.rm": false,
+"na.rm": false,
+"vjust":        0,
+"showSelected": "Commit",
+"help_showSelected": "Commit",
+"anchor": "start" 
+},
+"types": {
+"x": "numeric",
+"y": "numeric",
+"label": "linetype",
+"href": "character",
+"key": "numeric",
+"showSelected1": "character",
+"PANEL": "integer",
+"group": "character"
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1,
+"chunk_info": {
+ "geom11_text_details_chunk1.tsv": {
+ "bytes":     6840,
+"rows": 29 
+} 
+} 
+},
+"geom12_ribbon_details": {
+ "geom": "ribbon",
+"classed": "geom12_ribbon_details",
+"aes": {
+"x": "N",
+"ymin": "min",
+"ymax": "max",
+"key": "version",
+"fill": "version",
+"group": "version",
+"showSelected1": "version",
+"showSelected2": "Commit"
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"alpha":      0.2,
+"colour": "transparent",
+"showSelected": [ "version", "Commit" ],
+"help_showSelected": [ "version", "Commit" ] 
+},
+"types": {
+"fill": "rgb",
+"x": "numeric",
+"ymin": "numeric",
+"ymax": "numeric",
+"key": "character",
+"group": "character",
+"showSelected1": "character",
+"showSelected2": "character",
+"PANEL": "integer",
+"colour": "rgb"
+},
+"chunk_order": [
+ "Commit" 
+],
+"nest_order": [
+ "showSelected1",
+"group" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"columns": {
+ "common": [
+ "group",
+"colour",
+"fill",
+"key",
+"showSelected1" 
+] 
+},
+"chunks": {
+ "run1 v1.14.8 v1.18.6 1685a3b47d48f323afeae589545f7cbb7717ec28": 1,
+"run1 v1.14.8 v1.18.6 263b53e50241914a22f7ba6a139b52162c9d7927": 2,
+"run1 v1.14.8 v1.18.6 32e5aea1681398335f1bcedb4fe1563906701634": 3,
+"run1 v1.14.8 v1.18.6 67db7f7fb33b99da8cc5dc575714924b96d0f0fe": 4,
+"run1 v1.14.8 v1.18.6 681e0cb368d6be5ea5f4c77a6aaa1bb9e4cef065": 5,
+"run1 v1.14.8 v1.18.6 bc7f5aff76188a0cbc31a21a21926ab4c184cb52": 6,
+"run1 v1.14.8 v1.18.6 c1bcb73829afd84df619c446f95f08d9da5e56e9": 7,
+"run1 v1.14.8 v1.18.6 c26450af1d7b2381844d003867fd7f20a25ec8d0": 8,
+"run1 v1.14.8 v1.18.6 cd497408bb4dc6650d871b5076e738420ff431d7": 9,
+"run1 v1.14.8 v1.18.6 f1aab37322a229b611544205e7da8c17435561cf": 10,
+"run1 v1.14.8 v1.18.6 f6bbd5b3073526e554ad07bc9b0a346d72ad4e3a": 11,
+"run2a intermediate v1.18.6 22045e5ef8f46066619823d42ea83253f165ea7d": 12,
+"run2a intermediate v1.18.6 263b53e50241914a22f7ba6a139b52162c9d7927": 13,
+"run2a intermediate v1.18.6 3ad93f77a6f0b0e82cbf2b639f5d749dd06a122d": 14,
+"run2a intermediate v1.18.6 4f84d3c72a08ecdd9965b3cb8e493cabfd80492b": 15,
+"run2a intermediate v1.18.6 55b0de600d1770babe63d94ad3766a36bdedc443": 16,
+"run2a intermediate v1.18.6 59f966cf6839a0494e42ed1ab98616eea03dcb36": 17,
+"run2a intermediate v1.18.6 66cb6d2393cef30083b444346a7600a079207806": 18,
+"run2a intermediate v1.18.6 67129f034941b1d8ea3ed684822e04f517c6c837": 19,
+"run2a intermediate v1.18.6 833c1f4bcc6eb664320f80bf1abde4cc8177b20c": 20,
+"run2a intermediate v1.18.6 c81f8bbdffebd4886ddf70b9ca0f61a1cfa8237b": 21,
+"run2a intermediate v1.18.6 cf898ab6f8b15efc5b91ffa636579ee7c92b01bd": 22,
+"run2a intermediate v1.18.6 fb419f1a672ee5dbf4069c24a82c6168abff8046": 23,
+"run2b intermediate v1.14.8 08d0f73c2c2df7c21dd96d2c33c27373809683be": 24,
+"run2b intermediate v1.14.8 3ac805bfd2228e6547322a64e428b916c2fcbfde": 25,
+"run2b intermediate v1.14.8 8d26f4e2602f07c26d3c91753f7fa9ec840d4f8d": 26,
+"run2b intermediate v1.14.8 95d9c82d5f97de452a8b3fc0f3b2a16836eda8cc": 27,
+"run2b intermediate v1.14.8 c9fb2834a412b295ee95d08a7fab723fd88202b5": 28,
+"run2b intermediate v1.14.8 df7fa8071c6b818d24e47cc1a84a6dc0491550d6": 29 
+},
+"total": 29,
+"chunk_info": {
+ "geom12_ribbon_details_chunk_common.tsv": {
+ "bytes":      120,
+"rows": 3 
+},
+"geom12_ribbon_details_chunk1.tsv": {
+ "bytes":     2179,
+"rows": 40 
+},
+"geom12_ribbon_details_chunk2.tsv": {
+ "bytes":     2237,
+"rows": 41 
+},
+"geom12_ribbon_details_chunk3.tsv": {
+ "bytes":     2237,
+"rows": 41 
+},
+"geom12_ribbon_details_chunk4.tsv": {
+ "bytes":     2177,
+"rows": 40 
+},
+"geom12_ribbon_details_chunk5.tsv": {
+ "bytes":     2177,
+"rows": 40 
+},
+"geom12_ribbon_details_chunk6.tsv": {
+ "bytes":     2177,
+"rows": 40 
+},
+"geom12_ribbon_details_chunk7.tsv": {
+ "bytes":     2234,
+"rows": 41 
+},
+"geom12_ribbon_details_chunk8.tsv": {
+ "bytes":     2235,
+"rows": 41 
+},
+"geom12_ribbon_details_chunk9.tsv": {
+ "bytes":     2238,
+"rows": 41 
+},
+"geom12_ribbon_details_chunk10.tsv": {
+ "bytes":     2188,
+"rows": 40 
+},
+"geom12_ribbon_details_chunk11.tsv": {
+ "bytes":     2181,
+"rows": 40 
+},
+"geom12_ribbon_details_chunk12.tsv": {
+ "bytes":     2231,
+"rows": 41 
+},
+"geom12_ribbon_details_chunk13.tsv": {
+ "bytes":     2225,
+"rows": 41 
+},
+"geom12_ribbon_details_chunk14.tsv": {
+ "bytes":     2234,
+"rows": 41 
+},
+"geom12_ribbon_details_chunk15.tsv": {
+ "bytes":     2291,
+"rows": 42 
+},
+"geom12_ribbon_details_chunk16.tsv": {
+ "bytes":     2240,
+"rows": 41 
+},
+"geom12_ribbon_details_chunk17.tsv": {
+ "bytes":     2292,
+"rows": 42 
+},
+"geom12_ribbon_details_chunk18.tsv": {
+ "bytes":     2237,
+"rows": 41 
+},
+"geom12_ribbon_details_chunk19.tsv": {
+ "bytes":     2235,
+"rows": 41 
+},
+"geom12_ribbon_details_chunk20.tsv": {
+ "bytes":     2236,
+"rows": 41 
+},
+"geom12_ribbon_details_chunk21.tsv": {
+ "bytes":     2232,
+"rows": 41 
+},
+"geom12_ribbon_details_chunk22.tsv": {
+ "bytes":     2235,
+"rows": 41 
+},
+"geom12_ribbon_details_chunk23.tsv": {
+ "bytes":     2223,
+"rows": 41 
+},
+"geom12_ribbon_details_chunk24.tsv": {
+ "bytes":     2126,
+"rows": 39 
+},
+"geom12_ribbon_details_chunk25.tsv": {
+ "bytes":     2121,
+"rows": 39 
+},
+"geom12_ribbon_details_chunk26.tsv": {
+ "bytes":     2126,
+"rows": 39 
+},
+"geom12_ribbon_details_chunk27.tsv": {
+ "bytes":     2121,
+"rows": 39 
+},
+"geom12_ribbon_details_chunk28.tsv": {
+ "bytes":     2121,
+"rows": 39 
+},
+"geom12_ribbon_details_chunk29.tsv": {
+ "bytes":     2127,
+"rows": 39 
+} 
+} 
+},
+"geom13_line_details": {
+ "geom": "line",
+"classed": "geom13_line_details",
+"aes": {
+"x": "N",
+"y": "median",
+"key": "version",
+"colour": "version",
+"group": "version",
+"showSelected1": "version",
+"showSelected2": "Commit"
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"showSelected": [ "version", "Commit" ],
+"help_showSelected": [ "version", "Commit" ] 
+},
+"types": {
+"colour": "rgb",
+"x": "numeric",
+"y": "numeric",
+"key": "character",
+"group": "character",
+"showSelected1": "character",
+"showSelected2": "character",
+"PANEL": "integer"
+},
+"chunk_order": [
+ "Commit" 
+],
+"nest_order": [
+ "showSelected1",
+"group" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"columns": {
+ "common": [
+ "group",
+"colour",
+"key",
+"showSelected1" 
+] 
+},
+"chunks": {
+ "run1 v1.14.8 v1.18.6 1685a3b47d48f323afeae589545f7cbb7717ec28": 1,
+"run1 v1.14.8 v1.18.6 263b53e50241914a22f7ba6a139b52162c9d7927": 2,
+"run1 v1.14.8 v1.18.6 32e5aea1681398335f1bcedb4fe1563906701634": 3,
+"run1 v1.14.8 v1.18.6 67db7f7fb33b99da8cc5dc575714924b96d0f0fe": 4,
+"run1 v1.14.8 v1.18.6 681e0cb368d6be5ea5f4c77a6aaa1bb9e4cef065": 5,
+"run1 v1.14.8 v1.18.6 bc7f5aff76188a0cbc31a21a21926ab4c184cb52": 6,
+"run1 v1.14.8 v1.18.6 c1bcb73829afd84df619c446f95f08d9da5e56e9": 7,
+"run1 v1.14.8 v1.18.6 c26450af1d7b2381844d003867fd7f20a25ec8d0": 8,
+"run1 v1.14.8 v1.18.6 cd497408bb4dc6650d871b5076e738420ff431d7": 9,
+"run1 v1.14.8 v1.18.6 f1aab37322a229b611544205e7da8c17435561cf": 10,
+"run1 v1.14.8 v1.18.6 f6bbd5b3073526e554ad07bc9b0a346d72ad4e3a": 11,
+"run2a intermediate v1.18.6 22045e5ef8f46066619823d42ea83253f165ea7d": 12,
+"run2a intermediate v1.18.6 263b53e50241914a22f7ba6a139b52162c9d7927": 13,
+"run2a intermediate v1.18.6 3ad93f77a6f0b0e82cbf2b639f5d749dd06a122d": 14,
+"run2a intermediate v1.18.6 4f84d3c72a08ecdd9965b3cb8e493cabfd80492b": 15,
+"run2a intermediate v1.18.6 55b0de600d1770babe63d94ad3766a36bdedc443": 16,
+"run2a intermediate v1.18.6 59f966cf6839a0494e42ed1ab98616eea03dcb36": 17,
+"run2a intermediate v1.18.6 66cb6d2393cef30083b444346a7600a079207806": 18,
+"run2a intermediate v1.18.6 67129f034941b1d8ea3ed684822e04f517c6c837": 19,
+"run2a intermediate v1.18.6 833c1f4bcc6eb664320f80bf1abde4cc8177b20c": 20,
+"run2a intermediate v1.18.6 c81f8bbdffebd4886ddf70b9ca0f61a1cfa8237b": 21,
+"run2a intermediate v1.18.6 cf898ab6f8b15efc5b91ffa636579ee7c92b01bd": 22,
+"run2a intermediate v1.18.6 fb419f1a672ee5dbf4069c24a82c6168abff8046": 23,
+"run2b intermediate v1.14.8 08d0f73c2c2df7c21dd96d2c33c27373809683be": 24,
+"run2b intermediate v1.14.8 3ac805bfd2228e6547322a64e428b916c2fcbfde": 25,
+"run2b intermediate v1.14.8 8d26f4e2602f07c26d3c91753f7fa9ec840d4f8d": 26,
+"run2b intermediate v1.14.8 95d9c82d5f97de452a8b3fc0f3b2a16836eda8cc": 27,
+"run2b intermediate v1.14.8 c9fb2834a412b295ee95d08a7fab723fd88202b5": 28,
+"run2b intermediate v1.14.8 df7fa8071c6b818d24e47cc1a84a6dc0491550d6": 29 
+},
+"total": 29,
+"chunk_info": {
+ "geom13_line_details_chunk_common.tsv": {
+ "bytes":       91,
+"rows": 3 
+},
+"geom13_line_details_chunk1.tsv": {
+ "bytes":     1454,
+"rows": 40 
+},
+"geom13_line_details_chunk2.tsv": {
+ "bytes":     1490,
+"rows": 41 
+},
+"geom13_line_details_chunk3.tsv": {
+ "bytes":     1491,
+"rows": 41 
+},
+"geom13_line_details_chunk4.tsv": {
+ "bytes":     1454,
+"rows": 40 
+},
+"geom13_line_details_chunk5.tsv": {
+ "bytes":     1455,
+"rows": 40 
+},
+"geom13_line_details_chunk6.tsv": {
+ "bytes":     1449,
+"rows": 40 
+},
+"geom13_line_details_chunk7.tsv": {
+ "bytes":     1493,
+"rows": 41 
+},
+"geom13_line_details_chunk8.tsv": {
+ "bytes":     1490,
+"rows": 41 
+},
+"geom13_line_details_chunk9.tsv": {
+ "bytes":     1491,
+"rows": 41 
+},
+"geom13_line_details_chunk10.tsv": {
+ "bytes":     1453,
+"rows": 40 
+},
+"geom13_line_details_chunk11.tsv": {
+ "bytes":     1454,
+"rows": 40 
+},
+"geom13_line_details_chunk12.tsv": {
+ "bytes":     1488,
+"rows": 41 
+},
+"geom13_line_details_chunk13.tsv": {
+ "bytes":     1491,
+"rows": 41 
+},
+"geom13_line_details_chunk14.tsv": {
+ "bytes":     1489,
+"rows": 41 
+},
+"geom13_line_details_chunk15.tsv": {
+ "bytes":     1529,
+"rows": 42 
+},
+"geom13_line_details_chunk16.tsv": {
+ "bytes":     1484,
+"rows": 41 
+},
+"geom13_line_details_chunk17.tsv": {
+ "bytes":     1529,
+"rows": 42 
+},
+"geom13_line_details_chunk18.tsv": {
+ "bytes":     1492,
+"rows": 41 
+},
+"geom13_line_details_chunk19.tsv": {
+ "bytes":     1493,
+"rows": 41 
+},
+"geom13_line_details_chunk20.tsv": {
+ "bytes":     1488,
+"rows": 41 
+},
+"geom13_line_details_chunk21.tsv": {
+ "bytes":     1489,
+"rows": 41 
+},
+"geom13_line_details_chunk22.tsv": {
+ "bytes":     1489,
+"rows": 41 
+},
+"geom13_line_details_chunk23.tsv": {
+ "bytes":     1483,
+"rows": 41 
+},
+"geom13_line_details_chunk24.tsv": {
+ "bytes":     1418,
+"rows": 39 
+},
+"geom13_line_details_chunk25.tsv": {
+ "bytes":     1418,
+"rows": 39 
+},
+"geom13_line_details_chunk26.tsv": {
+ "bytes":     1418,
+"rows": 39 
+},
+"geom13_line_details_chunk27.tsv": {
+ "bytes":     1414,
+"rows": 39 
+},
+"geom13_line_details_chunk28.tsv": {
+ "bytes":     1419,
+"rows": 39 
+},
+"geom13_line_details_chunk29.tsv": {
+ "bytes":     1416,
+"rows": 39 
+} 
+} 
+},
+"geom14_point_details": {
+ "geom": "point",
+"classed": "geom14_point_details",
+"aes": {
+"x": "N",
+"y": "unit.value",
+"key": "version",
+"colour": "version",
+"showSelected1": "version",
+"showSelected2": "Commit"
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"fill": "#FFFFFF",
+"showSelected": [ "version", "Commit" ],
+"help_showSelected": [ "version", "Commit" ] 
+},
+"types": {
+"colour": "rgb",
+"x": "numeric",
+"y": "numeric",
+"key": "character",
+"showSelected1": "character",
+"showSelected2": "character",
+"PANEL": "integer",
+"group": "character"
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1",
+"showSelected2" 
+],
+"subset_order": [
+ "showSelected1",
+"showSelected2" 
+],
+"chunks": 1,
+"total": 1,
+"chunk_info": {
+ "geom14_point_details_chunk1.tsv": {
+ "bytes":     9060,
+"rows": 87 
+} 
+} 
+},
+"geom15_labelaligned_details": {
+ "geom": "label_aligned",
+"classed": "geom15_labelaligned_details",
+"aes": {
+"x": "N",
+"y": "unit.value",
+"label": "version",
+"key": "version",
+"colour": "version",
+"showSelected1": "version",
+"showSelected2": "Commit"
+},
+"params": {
+ "label_r":     0.15,
+"alignment": "horizontal",
+"min_distance":      0.1,
+"background_rect": true,
+"na.rm": false,
+"na.rm": false,
+"vjust":     -0.1,
+"alpha":      0.5,
+"showSelected": [ "version", "Commit" ],
+"help_showSelected": [ "version", "Commit" ] 
+},
+"types": {
+"colour": "rgb",
+"x": "numeric",
+"y": "numeric",
+"label": "character",
+"key": "character",
+"showSelected1": "character",
+"showSelected2": "character",
+"PANEL": "integer",
+"group": "character"
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1",
+"showSelected2" 
+],
+"subset_order": [
+ "showSelected1",
+"showSelected2" 
+],
+"chunks": 1,
+"total": 1,
+"chunk_info": {
+ "geom15_labelaligned_details_chunk1.tsv": {
+ "bytes":     9501,
+"rows": 87 
+} 
+} 
+} 
+},
+"duration": {
+ "Commit":     1000 
+},
+"selectors": {
+ "Status": {
+ "type": "multiple",
+"legend": true,
+"is.variable.value": false,
+"showSelected": true,
+"selected": [ "1", "0" ],
+"levels": [ "1", "0" ],
+"update": [
+ "geom2_tallrect_overview" 
+] 
+},
+"version": {
+ "type": "multiple",
+"legend": true,
+"is.variable.value": false,
+"showSelected": true,
+"selected": [ "Fast", "HEAD", "Slow" ],
+"levels": [ "Fast", "HEAD", "Slow" ],
+"update": [
+ "geom3_line_overview",
+"geom4_point_overview",
+"geom5_labelaligned_overview",
+"geom12_ribbon_details",
+"geom13_line_details",
+"geom14_point_details",
+"geom15_labelaligned_details" 
+] 
+},
+"Commit": {
+ "is.variable.value": false,
+"type": "single",
+"showSelected": true,
+"clickSelects": true,
+"chunks": "Commit",
+"selected": "run1 v1.14.8 v1.18.6 1685a3b47d48f323afeae589545f7cbb7717ec28",
+"levels": [ "run1 v1.14.8 v1.18.6 1685a3b47d48f323afeae589545f7cbb7717ec28", "run1 v1.14.8 v1.18.6 263b53e50241914a22f7ba6a139b52162c9d7927", "run1 v1.14.8 v1.18.6 32e5aea1681398335f1bcedb4fe1563906701634", "run1 v1.14.8 v1.18.6 67db7f7fb33b99da8cc5dc575714924b96d0f0fe", "run1 v1.14.8 v1.18.6 681e0cb368d6be5ea5f4c77a6aaa1bb9e4cef065", "run1 v1.14.8 v1.18.6 bc7f5aff76188a0cbc31a21a21926ab4c184cb52", "run1 v1.14.8 v1.18.6 c1bcb73829afd84df619c446f95f08d9da5e56e9", "run1 v1.14.8 v1.18.6 c26450af1d7b2381844d003867fd7f20a25ec8d0", "run1 v1.14.8 v1.18.6 cd497408bb4dc6650d871b5076e738420ff431d7", "run1 v1.14.8 v1.18.6 f1aab37322a229b611544205e7da8c17435561cf", "run1 v1.14.8 v1.18.6 f6bbd5b3073526e554ad07bc9b0a346d72ad4e3a", "run2a intermediate v1.18.6 22045e5ef8f46066619823d42ea83253f165ea7d", "run2a intermediate v1.18.6 263b53e50241914a22f7ba6a139b52162c9d7927", "run2a intermediate v1.18.6 3ad93f77a6f0b0e82cbf2b639f5d749dd06a122d", "run2a intermediate v1.18.6 4f84d3c72a08ecdd9965b3cb8e493cabfd80492b", "run2a intermediate v1.18.6 55b0de600d1770babe63d94ad3766a36bdedc443", "run2a intermediate v1.18.6 59f966cf6839a0494e42ed1ab98616eea03dcb36", "run2a intermediate v1.18.6 66cb6d2393cef30083b444346a7600a079207806", "run2a intermediate v1.18.6 67129f034941b1d8ea3ed684822e04f517c6c837", "run2a intermediate v1.18.6 833c1f4bcc6eb664320f80bf1abde4cc8177b20c", "run2a intermediate v1.18.6 c81f8bbdffebd4886ddf70b9ca0f61a1cfa8237b", "run2a intermediate v1.18.6 cf898ab6f8b15efc5b91ffa636579ee7c92b01bd", "run2a intermediate v1.18.6 fb419f1a672ee5dbf4069c24a82c6168abff8046", "run2b intermediate v1.14.8 08d0f73c2c2df7c21dd96d2c33c27373809683be", "run2b intermediate v1.14.8 3ac805bfd2228e6547322a64e428b916c2fcbfde", "run2b intermediate v1.14.8 8d26f4e2602f07c26d3c91753f7fa9ec840d4f8d", "run2b intermediate v1.14.8 95d9c82d5f97de452a8b3fc0f3b2a16836eda8cc", "run2b intermediate v1.14.8 c9fb2834a412b295ee95d08a7fab723fd88202b5", "run2b intermediate v1.14.8 df7fa8071c6b818d24e47cc1a84a6dc0491550d6" ],
+"update": [
+ "geom1_vline_overview",
+"geom6_tallrect_overview",
+"geom9_vline_details",
+"geom10_text_details",
+"geom11_text_details",
+"geom12_ribbon_details",
+"geom13_line_details",
+"geom14_point_details",
+"geom15_labelaligned_details" 
+],
+"duration":     1000 
+} 
+},
+"plots": {
+ "overview": {
+ "panel_margin_lines":     0.27,
+"legend": {
+ "version": {
+ "guide": "legend",
+"geoms": [ "path", "point", "gTree" ],
+"title": "version",
+"class": "version",
+"selector": "version",
+"is_discrete": true,
+"legend_type": "colour",
+"text_size": "9.6pt",
+"title_size": "12pt",
+"entries": [
+ {
+ "pathcolour": "#A6761D",
+"pathsize":      0.5,
+"pathlinetype":        1,
+"label": "Fast",
+"pointcolour": "#A6761D",
+"pointshape":       21,
+"pointsize":      1.5,
+"pointstroke":      0.5,
+"gTreecolour": "#A6761D",
+"gTreefill": "#FFFFFF",
+"gTreesize":       12,
+"gTreeangle":        0,
+"gTreehjust":      0.5,
+"gTreevjust":      0.5,
+"gTreealpha":        1,
+"gTreefamily": "",
+"gTreefontface":        1,
+"gTreelineheight":      1.2 
+},
+{
+ "pathcolour": "#1B9E77",
+"pathsize":      0.5,
+"pathlinetype":        1,
+"label": "HEAD",
+"pointcolour": "#1B9E77",
+"pointshape":       21,
+"pointsize":      1.5,
+"pointstroke":      0.5,
+"gTreecolour": "#1B9E77",
+"gTreefill": "#FFFFFF",
+"gTreesize":       12,
+"gTreeangle":        0,
+"gTreehjust":      0.5,
+"gTreevjust":      0.5,
+"gTreealpha":        1,
+"gTreefamily": "",
+"gTreefontface":        1,
+"gTreelineheight":      1.2 
+},
+{
+ "pathcolour": "#E6AB02",
+"pathsize":      0.5,
+"pathlinetype":        1,
+"label": "Slow",
+"pointcolour": "#E6AB02",
+"pointshape":       21,
+"pointsize":      1.5,
+"pointstroke":      0.5,
+"gTreecolour": "#E6AB02",
+"gTreefill": "#FFFFFF",
+"gTreesize":       12,
+"gTreeangle":        0,
+"gTreehjust":      0.5,
+"gTreevjust":      0.5,
+"gTreealpha":        1,
+"gTreefamily": "",
+"gTreefontface":        1,
+"gTreelineheight":      1.2 
+} 
+] 
+},
+"Status": {
+ "guide": "legend",
+"geoms": "polygon",
+"title": "Status",
+"class": "Status",
+"selector": "Status",
+"is_discrete": true,
+"legend_type": "fill",
+"text_size": "9.6pt",
+"title_size": "12pt",
+"entries": [
+ {
+ "polygonfill": "#FFFFFF",
+"polygoncolour": "#BEBEBE",
+"polygonsize":      0.5,
+"polygonlinetype":        1,
+"polygonalpha":      0.5,
+"label": "1" 
+},
+{
+ "polygonfill": "#BEBEBE",
+"polygoncolour": "#BEBEBE",
+"polygonsize":      0.5,
+"polygonlinetype":        1,
+"polygonalpha":      0.5,
+"label": "0" 
+} 
+] 
+} 
+},
+"strips": {
+ "right": [
+ "",
+"",
+"variable: N",
+"",
+"",
+"variable: seconds" 
+],
+"top": [
+ "Bisect: run1 v1.14.8 v1.18.6",
+"Bisect: run2a intermediate v1.18.6",
+"Bisect: run2b intermediate v1.14.8",
+"",
+"",
+"" 
+],
+"n": {
+ "top":        1,
+"right":        1 
+} 
+},
+"layout": {
+ "PANEL": [ "1", "2", "3", "4", "5", "6" ],
+"ROW": [ 1, 1, 1, 2, 2, 2 ],
+"COL": [ 1, 2, 3, 1, 2, 3 ],
+"variable": [ "N", "N", "N", "seconds", "seconds", "seconds" ],
+"Bisect": [ "run1 v1.14.8 v1.18.6", "run2a intermediate v1.18.6", "run2b intermediate v1.14.8", "run1 v1.14.8 v1.18.6", "run2a intermediate v1.18.6", "run2b intermediate v1.14.8" ],
+"SCALE_X": [ 1, 1, 1, 1, 1, 1 ],
+"SCALE_Y": [ 1, 1, 1, 2, 2, 2 ],
+"AXIS_Y": [ true, false, false, true, false, false ],
+"AXIS_X": [ false, false, false, true, true, true ],
+"coord_fixed": [ false, false, false, false, false, false ],
+"width_proportion": [ 0.3333333, 0.3333333, 0.3333333, 0.3333333, 0.3333333, 0.3333333 ],
+"height_proportion": [      0.5,      0.5,      0.5,      0.5,      0.5,      0.5 ] 
+},
+"panel_background": {
+ "fill": "#FFFFFF",
+"colour": "transparent",
+"size":      0.5,
+"linetype":        1 
+},
+"panel_border": {
+ "fill": "transparent",
+"colour": "#7F7F7F",
+"size":      0.5,
+"linetype":        1 
+},
+"grid_major": {
+ "colour": "#E5E5E5",
+"size":      0.2,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+        0,
+      10,
+      20,
+      30 
+],
+[
+        0,
+      10,
+      20,
+      30 
+],
+[
+        0,
+      10,
+      20,
+      30 
+],
+[
+        0,
+      10,
+      20,
+      30 
+],
+[
+        0,
+      10,
+      20,
+      30 
+],
+[
+        0,
+      10,
+      20,
+      30 
+] 
+],
+"y": [
+ [
+     3500,
+    4000,
+    4500,
+    5000 
+],
+[
+     3500,
+    4000,
+    4500,
+    5000 
+],
+[
+     3500,
+    4000,
+    4500,
+    5000 
+],
+[
+     0.08,
+    0.12,
+    0.16,
+     0.2 
+],
+[
+     0.08,
+    0.12,
+    0.16,
+     0.2 
+],
+[
+     0.08,
+    0.12,
+    0.16,
+     0.2 
+] 
+] 
+} 
+},
+"grid_minor": {
+ "colour": "#FAFAFA",
+"size":      0.5,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+        0,
+       5,
+      10,
+      15,
+      20,
+      25,
+      30 
+],
+[
+        0,
+       5,
+      10,
+      15,
+      20,
+      25,
+      30 
+],
+[
+        0,
+       5,
+      10,
+      15,
+      20,
+      25,
+      30 
+],
+[
+        0,
+       5,
+      10,
+      15,
+      20,
+      25,
+      30 
+],
+[
+        0,
+       5,
+      10,
+      15,
+      20,
+      25,
+      30 
+],
+[
+        0,
+       5,
+      10,
+      15,
+      20,
+      25,
+      30 
+] 
+],
+"y": [
+ [
+     3250,
+    3500,
+    3750,
+    4000,
+    4250,
+    4500,
+    4750,
+    5000,
+    5250 
+],
+[
+     3250,
+    3500,
+    3750,
+    4000,
+    4250,
+    4500,
+    4750,
+    5000,
+    5250 
+],
+[
+     3250,
+    3500,
+    3750,
+    4000,
+    4250,
+    4500,
+    4750,
+    5000,
+    5250 
+],
+[
+     0.08,
+     0.1,
+    0.12,
+    0.14,
+    0.16,
+    0.18,
+     0.2 
+],
+[
+     0.08,
+     0.1,
+    0.12,
+    0.14,
+    0.16,
+    0.18,
+     0.2 
+],
+[
+     0.08,
+     0.1,
+    0.12,
+    0.14,
+    0.16,
+    0.18,
+     0.2 
+] 
+] 
+} 
+},
+"axis1": {
+ "x": [
+        0,
+      10,
+      20,
+      30 
+],
+"xlab": [
+ "0",
+"10",
+"20",
+"30" 
+],
+"xrange": [   -0.425,   30.925 ],
+"xline": false,
+"xticks": true,
+"y": [
+     3500,
+    4000,
+    4500,
+    5000 
+],
+"ylab": [
+ "3500",
+"4000",
+"4500",
+"5000" 
+],
+"yrange": [ 3019.817, 5298.739 ],
+"yline": false,
+"yticks": true 
+},
+"axis2": {
+ "x": [
+        0,
+      10,
+      20,
+      30 
+],
+"xlab": [
+ "0",
+"10",
+"20",
+"30" 
+],
+"xrange": [   -0.425,   30.925 ],
+"xline": false,
+"xticks": true,
+"y": [
+     3500,
+    4000,
+    4500,
+    5000 
+],
+"ylab": [
+ "3500",
+"4000",
+"4500",
+"5000" 
+],
+"yrange": [ 3019.817, 5298.739 ],
+"yline": false,
+"yticks": true 
+},
+"axis3": {
+ "x": [
+        0,
+      10,
+      20,
+      30 
+],
+"xlab": [
+ "0",
+"10",
+"20",
+"30" 
+],
+"xrange": [   -0.425,   30.925 ],
+"xline": false,
+"xticks": true,
+"y": [
+     3500,
+    4000,
+    4500,
+    5000 
+],
+"ylab": [
+ "3500",
+"4000",
+"4500",
+"5000" 
+],
+"yrange": [ 3019.817, 5298.739 ],
+"yline": false,
+"yticks": true 
+},
+"axis4": {
+ "x": [
+        0,
+      10,
+      20,
+      30 
+],
+"xlab": [
+ "0",
+"10",
+"20",
+"30" 
+],
+"xrange": [   -0.425,   30.925 ],
+"xline": false,
+"xticks": true,
+"y": [
+     0.08,
+    0.12,
+    0.16,
+     0.2 
+],
+"ylab": [
+ "0.08",
+"0.12",
+"0.16",
+"0.20" 
+],
+"yrange": [ 0.07110425, 0.2132476 ],
+"yline": false,
+"yticks": true 
+},
+"axis5": {
+ "x": [
+        0,
+      10,
+      20,
+      30 
+],
+"xlab": [
+ "0",
+"10",
+"20",
+"30" 
+],
+"xrange": [   -0.425,   30.925 ],
+"xline": false,
+"xticks": true,
+"y": [
+     0.08,
+    0.12,
+    0.16,
+     0.2 
+],
+"ylab": [
+ "0.08",
+"0.12",
+"0.16",
+"0.20" 
+],
+"yrange": [ 0.07110425, 0.2132476 ],
+"yline": false,
+"yticks": true 
+},
+"axis6": {
+ "x": [
+        0,
+      10,
+      20,
+      30 
+],
+"xlab": [
+ "0",
+"10",
+"20",
+"30" 
+],
+"xrange": [   -0.425,   30.925 ],
+"xline": false,
+"xticks": true,
+"y": [
+     0.08,
+    0.12,
+    0.16,
+     0.2 
+],
+"ylab": [
+ "0.08",
+"0.12",
+"0.16",
+"0.20" 
+],
+"yrange": [ 0.07110425, 0.2132476 ],
+"yline": false,
+"yticks": true 
+},
+"xtitle": "Commit rank over time",
+"strip_text_xsize": "12pt",
+"xsize": "12pt",
+"xangle":      -30,
+"xanchor": "end",
+"ytitle": "",
+"strip_text_ysize": "12pt",
+"ysize": "12pt",
+"yangle":        0,
+"yanchor": "end",
+"xlabs": [
+ "0",
+"10",
+"20",
+"30" 
+],
+"ylabs": [
+ "3500",
+"4000",
+"4500",
+"5000",
+"0.08",
+"0.12",
+"0.16",
+"0.20" 
+],
+"title": "Overview of three git bisect runs, select commit",
+"title_size": "14.4pt",
+"options": {
+ "width":     1000,
+"height":      400 
+},
+"span": {
+ "rowspan": null,
+"colspan": null,
+"last_in_row": null 
+},
+"geoms": [
+ "geom1_vline_overview",
+"geom2_tallrect_overview",
+"geom3_line_overview",
+"geom4_point_overview",
+"geom5_labelaligned_overview",
+"geom6_tallrect_overview" 
+] 
+},
+"details": {
+ "panel_margin_lines":     0.27,
+"strips": {
+ "top": [
+ "" 
+],
+"right": [
+ "" 
+],
+"n": {
+ "top":        0,
+"right":        0 
+} 
+},
+"layout": {
+ "PANEL": [ 1 ],
+"ROW": [ 1 ],
+"COL": [ 1 ],
+"SCALE_X": [ 1 ],
+"SCALE_Y": [ 1 ],
+"AXIS_X": [ true ],
+"AXIS_Y": [ true ],
+"coord_fixed": [ false ],
+"width_proportion": [        1 ],
+"height_proportion": [        1 ] 
+},
+"panel_background": {
+ "fill": "#FFFFFF",
+"colour": "transparent",
+"size":      0.5,
+"linetype":        1 
+},
+"panel_border": {
+ "fill": "transparent",
+"colour": "#7F7F7F",
+"size":      0.5,
+"linetype":        1 
+},
+"grid_major": {
+ "colour": "#E5E5E5",
+"size":      0.2,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+        0,
+       1,
+       2,
+       3,
+       4 
+] 
+],
+"y": [
+ [
+       -3,
+      -2,
+      -1 
+] 
+] 
+} 
+},
+"grid_minor": {
+ "colour": "#FAFAFA",
+"size":      0.5,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+        0,
+     0.5,
+       1,
+     1.5,
+       2,
+     2.5,
+       3,
+     3.5,
+       4 
+] 
+],
+"y": [
+ [
+     -3.5,
+      -3,
+    -2.5,
+      -2,
+    -1.5,
+      -1,
+    -0.5 
+] 
+] 
+} 
+},
+"axis1": {
+ "x": [
+        0,
+       1,
+       2,
+       3,
+       4 
+],
+"xlab": [
+ "1",
+"10",
+"100",
+"1000",
+"10000" 
+],
+"xrange": [ -0.1956695, 4.109059 ],
+"xline": false,
+"xticks": true,
+"y": [
+       -3,
+      -2,
+      -1 
+],
+"ylab": [
+ "0.001",
+"0.010",
+"0.100" 
+],
+"yrange": [ -3.982549, -0.3933713 ],
+"yline": false,
+"yticks": true 
+},
+"xtitle": "N = number of columns in CSV file",
+"strip_text_xsize": "12pt",
+"xsize": "12pt",
+"xangle":        0,
+"xanchor": "middle",
+"ytitle": "Seconds to fread(file.csv)",
+"strip_text_ysize": "12pt",
+"ysize": "12pt",
+"yangle":        0,
+"yanchor": "end",
+"xlabs": [
+ "1",
+"10",
+"100",
+"1000",
+"10000" 
+],
+"ylabs": [
+ "0.001",
+"0.010",
+"0.100" 
+],
+"title": "Asymptotic timing results for selected commit",
+"title_size": "14.4pt",
+"options": {
+ "width":     1000,
+"height":      400 
+},
+"span": {
+ "rowspan": null,
+"colspan": null,
+"last_in_row": null 
+},
+"geoms": [
+ "geom7_hline_details",
+"geom8_text_details",
+"geom9_vline_details",
+"geom10_text_details",
+"geom11_text_details",
+"geom12_ribbon_details",
+"geom13_line_details",
+"geom14_point_details",
+"geom15_labelaligned_details" 
+] 
+} 
+},
+"source": "https://github.com/tdhock/data.table-pr7907-bisect-viz/blob/main/bisect-7907.R",
+"title": "Identifying data.table::fread() performance regressions with atime and git bisect" 
+}
